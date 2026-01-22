@@ -1,62 +1,43 @@
 📊 Expense Analysis Project (Python & Pandas)
 📌 Overview
 
-This project demonstrates how to analyze real-world expense data using Python and Pandas.
-It focuses on data loading, cleaning, and extracting meaningful insights from a CSV dataset that represents daily expenses.
+This project analyzes daily expense data using Python and Pandas to demonstrate data cleaning, manipulation, and analysis on a realistic dataset.
 
-The project follows a practical data analysis workflow, similar to what is expected in entry-level data analyst or Python roles.
+🗂️ Dataset
 
-🗂️ Dataset Description
+The dataset (expenses.csv) includes:
 
-The dataset (expenses.csv) contains the following columns:
+Date
 
-Date – Date of the expense
+Category (Food, Travel, Rent, Shopping, etc.)
 
-Category – Type of expense (Food, Travel, Rent, Shopping, etc.)
+Amount
 
-Amount – Expense amount
+Payment Mode
 
-Payment_Mode – Mode of payment (UPI, Cash, Card, NetBanking)
+Notes
 
-Notes – Short description of the expense
+It contains missing values and duplicate entries to simulate real-world data.
 
-The dataset intentionally includes missing values and duplicate entries to simulate real-world data issues.
+🔧 What This Project Does
 
-🔧 Project Workflow
+Loads expense data from a CSV file
 
-Data Loading
+Inspects data structure and quality
 
-Loaded CSV data using Pandas
+Cleans data by handling missing values and removing duplicates
 
-Data Inspection
+Performs expense analysis using Pandas
 
-Checked structure, data types, and missing values
+📈 Analysis Performed
 
-Data Cleaning
+Total, average, minimum, and maximum expenses
 
-Filled missing expense amounts
+Category-wise expense analysis
 
-Removed duplicate records
+Payment mode-wise spending
 
-Data Analysis
-
-Calculated total, average, minimum, and maximum expenses
-
-Performed category-wise expense analysis
-
-Analyzed expenses by payment mode
-
-Identified the highest spending category
-
-📈 Key Insights Extracted
-
-Total and average expenses
-
-Category-wise spending patterns
-
-Most frequently used payment modes
-
-High-value expense transactions
+Identification of the highest spending category
 
 🛠️ Technologies Used
 
@@ -66,21 +47,10 @@ Pandas
 
 NumPy
 
-▶️ How to Run the Project
-
-Clone the repository
-
-Ensure Python is installed
-
-Install required libraries:
-
+▶️ How to Run
 pip install pandas numpy
-
-
-Run the script:
-
 python expenses_analysis.py
 
 🎯 Purpose
 
-This project showcases hands-on experience with data cleaning, manipulation, and analysis using Pandas, making it suitable for resumes, internships, and entry-level job applications.
+This project showcases practical Pandas skills and a real-world data analysis workflow suitable for resumes and entry-level roles
