@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("expenses.csv")
 print(df)
@@ -42,6 +42,13 @@ expenses_by_category = df.groupby("Category")["Amount"].sum()
 print("\nExpenses by Category:")
 print(expenses_by_category)
 
+#plotting expenses by category
+plt.figure
+expenses_by_category.plot(kind='bar', title='Expenses by Category')
+plt.xlabel('Category')
+plt.ylabel('Total Amount')
+plt.show()
+
 #Highest expense category
 highest_spending_category = df.groupby("Category")["Amount"].sum().idxmax()
 print(highest_spending_category)
@@ -50,5 +57,15 @@ print(highest_spending_category)
 payment_mode_expense = df.groupby("Payment_Mode")["Amount"].sum()
 print("\nExpenses by Payment Mode:")
 print(payment_mode_expense)
+
+#plotting expenses by payment mode
+plt.figure()
+payment_mode_expense.plot(kind='bar', title='Expenses by Payment Mode')
+plt.xlabel('Payment_Mode')
+plt.ylabel('Total Amount')
+plt.show()
+
+# Exporting the cleaned and analyzed data to a new CSV file
+df.to_csv("Analyzed_Expenses.csv")
 
    
