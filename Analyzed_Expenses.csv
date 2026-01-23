@@ -1,0 +1,19 @@
+,Date,Category,Amount,Payment_Mode,Notes
+0,2025-01-01,Food,250.0,UPI,Lunch
+1,2025-01-01,Travel,120.0,Card,Bus ticket
+2,2025-01-02,Food,180.0,Cash,Breakfast
+3,2025-01-02,Shopping,1500.0,Card,Clothes
+4,2025-01-03,Rent,8000.0,NetBanking,January rent
+5,2025-01-03,Utilities,600.0,UPI,Electricity bill
+6,2025-01-04,Food,300.0,UPI,Dinner
+7,2025-01-04,Entertainment,450.0,Card,Movie
+8,2025-01-05,Travel,220.0,UPI,Auto ride
+9,2025-01-05,Food,0.0,Cash,Snacks
+10,2025-01-06,Shopping,999.0,Card,Online order
+11,2025-01-06,Utilities,600.0,UPI,Electricity bill
+12,2025-01-07,Food,260.0,UPI,Lunch
+13,2025-01-07,Entertainment,0.0,Card,Cancelled show
+14,2025-01-08,Travel,120.0,UPI,Metro
+15,2025-01-08,Food,200.0,Cash,Dinner
+16,2025-01-09,Shopping,1500.0,Card,Duplicate entry
+18,2025-01-10,Food,190.0,UPI,Breakfast
